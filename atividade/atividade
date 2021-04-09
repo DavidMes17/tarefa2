@@ -1,0 +1,69 @@
+## RECEBENDO DADOS (1° questão)
+```python
+age = int(input("Informe sua idade: ")
+type(age)
+MaritalStatus = str(input("informe seu estado civil: "))
+type(MaritalStatus)
+height = float(input("Informe sua altura: "))
+type(height)
+name = str(input("Informe seu nome: "))
+type(name)
+```
+
+## IMPRESSÃO DOS DADOS
+```python
+print(f"Sua idade é: {age}")
+print(f"Você está atualmente: {MaritalStatus}")
+print(f"Seu tamanho é: {height}")
+print(f"E seu nome é: {name}")
+```
+
+## CALCULANDO ÁREA E PERÍMETRO DE UMA CIRCUFERÊNCIA (2° questão)
+```python
+ray = float(input("Informe a medida do raio: ")
+type(ray)
+area = (ray * 2) * 2
+perimeter = ray * 4
+print(f"o perímetro é: {perimeter} e a área é: {area}")
+```
+
+## ÀS COMPRAS (3° questão)
+```python
+total = float(input("Informe seu orçamento: "))
+type(total)
+product = str(input("Informe o produto a ser comprado: "))
+type(product)
+value = float(input("Informe o valor do produto: "))
+type(value)
+product2 = str(input("Informe o segundo produto a ser comprado: "))
+type(product2)
+value2 = float(input("Informe o valor do produto: "))
+type(value2)
+total -= product
+product == product2
+total -= product
+print(f"o valor final do orçamento foi de: {total}")
+```
+
+## RETORNO DA COMBINAÇÃO A/B (4° questão)
+```python
+number1 = 2
+number2 = 3
+(a % 2 == 0) or (a % 2 != 0)
+(a % 2 == 0) and (a % 2 != 0)
+not (true)
+```
+
+## TESTAR COMANDOS DE OPERAÇÃO (5° questão)
+```python
+one int(input("Insira o primeiro valor inteiro: "))
+type(one)
+two int(input("Insira o segundo valor inteiro: "))
+type(two)
+print(one == two)
+print(one != two)
+print(one >= two)
+print(one <= two)
+print(one > two)
+print(one < two)
+```
