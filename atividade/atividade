@@ -20,10 +20,10 @@ print(f"E seu nome é: {name}")
 
 ## CALCULANDO ÁREA E PERÍMETRO DE UMA CIRCUFERÊNCIA (2° questão)
 ```python
-ray = float(input("Informe a medida do raio: ")
+ray = float(input("Informe a medida do raio: "))
 type(ray)
-area = (ray * 2) * 2
-perimeter = ray * 4
+area = ((3.14 * ray * 2) ** 2)
+perimeter = 2 * 3.14 * ray
 print(f"o perímetro é: {perimeter} e a área é: {area}")
 ```
 
